@@ -1,0 +1,22 @@
+# FastAPI 核心
+fastapi>=0.109.0
+uvicorn>=0.27.0
+python-multipart>=0.0.6
+pydantic>=2.6.0
+pydantic-settings>=2.1.0
+
+# 大模型 SDK
+qianfan>=0.3.0              # 百度文心一言
+dashscope>=1.18.0          # 阿里通义千问
+anthropic>=0.25.0          # Claude
+openai>=1.30.0             # GPT
+
+# 数据库
+sqlalchemy>=2.0.0
+aiosqlite>=0.19.0
+
+# 工具
+python-dotenv>=1.0.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.0
+python-dateutil>=2.8.0
